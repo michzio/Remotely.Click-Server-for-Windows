@@ -1,0 +1,16 @@
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Remotely.Click Server for Windows.exe.config
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Remotely.Click Server for Windows.exe
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Remotely.Click Server for Windows.pdb
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.csprojResolveAssemblyReference.cache
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\MainWindow.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\App.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows_MarkupCompile.cache
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows_MarkupCompile.lref
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\MainWindow.baml
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.g.resources
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click_Server_for_Windows.Properties.Resources.resources
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.csproj.GenerateResource.Cache
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.exe
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.pdb
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows_Content.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Icons\ic_speaker_phone_3x.png
