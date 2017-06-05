@@ -1,0 +1,42 @@
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\Icons\green-icon.png
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\Icons\ic_speaker_phone_3x.png
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\Icons\red-icon.png
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\Icons\orange-icon.png
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\Remotely.Click Server for Windows.exe.config
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\Remotely.Click Server for Windows.exe
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\Remotely.Click Server for Windows.pdb
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\Microsoft.Expression.Interactions.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\System.Windows.Interactivity.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\ru\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click Server for Windows.csprojResolveAssemblyReference.cache
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\MainWindow.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\PreferencesWindow.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\App.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click Server for Windows_Content.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click Server for Windows_MarkupCompile.cache
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click Server for Windows_MarkupCompile.lref
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\MainWindow.baml
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\PreferencesWindow.baml
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click Server for Windows.g.resources
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click_Server_for_Windows.Properties.Resources.resources
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click Server for Windows.csproj.GenerateResource.Cache
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click Server for Windows.exe
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Release\Remotely.Click Server for Windows.pdb

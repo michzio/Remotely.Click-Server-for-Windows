@@ -14,3 +14,34 @@ C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server f
 C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.pdb
 C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows_Content.g.cs
 C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Icons\ic_speaker_phone_3x.png
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\PreferencesWindow.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\PreferencesWindow.baml
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Icons\green-icon.png
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Icons\red-icon.png
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Icons\orange-icon.png
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.exe.manifest
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.TrustInfo.xml
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Remotely.Click Server for Windows.exe.manifest
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\bin\Debug\Remotely.Click Server for Windows.application
+C:\Users\michzio\Developer\MyProjects\BachelorDegree\wpf\Remotely.Click Server for Windows\Remotely.Click Server for Windows\obj\Debug\Remotely.Click Server for Windows.application

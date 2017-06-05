@@ -1,0 +1,76 @@
+﻿<Window x:Class="Remotely.Click_Server_for_Windows.PreferencesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Remotely.Click_Server_for_Windows"
+        mc:Ignorable="d"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:support="clr-namespace:Remotely.Click_Server_for_Windows.Support"
+        Title="Preferences - Remotely.Click Server for Windows" Height="520" Width="600">
+    <Grid>
+        <TabControl HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Margin="0,60,0,0">
+            <TabControl.Resources>
+                <Style TargetType="{x:Type TabPanel}">
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                </Style>
+            </TabControl.Resources>
+            <TabItem Header="General" FontSize="14">
+                <Grid Background="Transparent">
+                    <CheckBox Name="ShouldAutostart" Content="Should start automatically at login" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Click="ShouldAutostart_CheckBoxClicked" IsChecked="True" Width="500"/>
+                    <CheckBox Name="ShouldServerAutostart" Content="Should start server at launch of application" HorizontalAlignment="Left" Margin="50,85,0,0" VerticalAlignment="Top" Width="500" IsChecked="True" Click="ShouldServerAutostart_CheckBoxClicked" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Network" FontSize="14">
+                <Grid Background="Transparent" >
+                    <CheckBox Name="ShouldAutoDiscoverDevices" Content="Auto discover network devices (Bonjour)" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="500" IsChecked="True" Click="ShouldAutoDiscoverDevices_CheckBoxClicked" />
+                    <TextBox Name="DeviceDiscoverableName" HorizontalAlignment="Left" Height="23" Margin="50,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" TextChanged="DeviceDiscoverableName_TextChanged" LostFocus="DeviceDiscoverableName_LostFocus">
+                        <i:Interaction.Behaviors>
+                            <support:TextBoxEnterKeyUpdateBehavior />
+                        </i:Interaction.Behaviors>
+                    </TextBox>
+                    <TextBlock HorizontalAlignment="Left" Margin="50,90,0,0" TextWrapping="Wrap" Text="Discoverable Name" VerticalAlignment="Top" Width="200" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="255,90,0,0" TextWrapping="Wrap" Text="(if empty use computer name)" VerticalAlignment="Top" Width="295"/>
+                    <TextBox Name="ServerIpAddress" HorizontalAlignment="Left" Height="23" Margin="200,200,0,0" TextWrapping="Wrap" Text="0.0.0.0" VerticalAlignment="Top" Width="350" TextChanged="ServerIpAddress_TextChanged" LostFocus="ServerIpAddress_LostFocus" IsEnabled="False">
+                        <i:Interaction.Behaviors>
+                            <support:TextBoxEnterKeyUpdateBehavior />
+                        </i:Interaction.Behaviors>
+                    </TextBox>
+                    <TextBlock HorizontalAlignment="Left" Margin="50,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" FontWeight="Bold"><Run Text="Server Con"/><Run Text="figuration"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="50,200,0,0" TextWrapping="Wrap" Text="IP address:" VerticalAlignment="Top" Width="150"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="50,240,0,0" TextWrapping="Wrap" Text="Port:" VerticalAlignment="Top" />
+                    <TextBox Name="ServerPortNumber" HorizontalAlignment="Left" Height="23" Margin="200,240,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="350" TextChanged="ServerPortNumber_TextChanged" LostFocus="ServerPortNumber_LostFocus" IsEnabled="False">
+                        <i:Interaction.Behaviors>
+                            <support:TextBoxEnterKeyUpdateBehavior />
+                        </i:Interaction.Behaviors>
+                    </TextBox>
+                    <CheckBox Name="ShouldUseCustomPortNumber" Content="use custom port number " HorizontalAlignment="Left" Margin="200,280,0,0" VerticalAlignment="Top" Width="350" Click="ShouldUseCustomPortNumber_CheckBoxClicked" />
+                    <Button Name="ListenButton" Content="Start listening" HorizontalAlignment="Left" Margin="50,320,0,0" VerticalAlignment="Top" Width="150" Click="ListenButton_Click"/>
+                    <Image Name="ServerStatusIcon" HorizontalAlignment="Left" Height="28" Margin="520,317,0,0" VerticalAlignment="Top" Width="28" Source="Icons/red-icon.png" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Security" FontSize="14">
+                <Grid Background="Transparent">
+                    <TextBlock HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" Text="Set Password for Connection:" VerticalAlignment="Top" FontWeight="Bold" Width="500"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password: " VerticalAlignment="Top" Margin="50,100,0,0" Width="200"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="50,150,0,0" TextWrapping="Wrap" Text="Confirm password:" VerticalAlignment="Top" Width="200"/>
+                    <PasswordBox Name="PasswordBox" HorizontalAlignment="Left" Height="23" Margin="250,100,0,0" Password="" VerticalAlignment="Top" Width="300" PasswordChanged="PasswordBox_PasswordChanged" LostFocus="PasswordBox_LostFocus">
+                        <i:Interaction.Behaviors>
+                            <support:PasswordBoxEnterKeyUpdateBehavior />
+                        </i:Interaction.Behaviors>
+                    </PasswordBox>
+                    <PasswordBox Name="ConfirmPasswordBox" HorizontalAlignment="Left" Height="23" Margin="250,150,0,0" Password="" VerticalAlignment="Top" Width="300" PasswordChanged="ConfirmPasswordBox_PasswordChanged" LostFocus="ConfirmPasswordBox_LostFocus">
+                        <i:Interaction.Behaviors>
+                            <support:PasswordBoxEnterKeyUpdateBehavior />
+                        </i:Interaction.Behaviors>
+                    </PasswordBox>
+                    <Button Name="ApplyButton" Content="Apply" HorizontalAlignment="Left" Margin="250,200,0,0" VerticalAlignment="Top" Width="140" Click="ApplyButton_Click"/>
+                    <Button Name="ClearButton" Content="Clear" HorizontalAlignment="Left" Margin="410,200,0,0" VerticalAlignment="Top" Width="140" Click="ClearButton_Click"/>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,10" TextWrapping="Wrap" Text="Preferences" VerticalAlignment="Top" FontSize="22" FontWeight="Bold"/>
+       
+    </Grid>
+</Window>

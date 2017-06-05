@@ -5,9 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Remotely.Click_Server_for_Windows"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" ShowInTaskbar="False" Visibility="Visible"
-        Loaded="OnLoaded" WindowStartupLocation="Manual" Topmost="False" WindowState="Minimized" >
-    <Grid>
-        
+        Title="About - Remotely.Click Server for Windows"
+        Height="350" Width="525" 
+        ShowInTaskbar="False"
+       
+        WindowStartupLocation="Manual" 
+        Topmost="False"
+        Visibility="Visible"
+        WindowState="Minimized">
+    <Grid MinWidth="500" MinHeight="289" Opacity="1.0">
+        <TextBlock HorizontalAlignment="Left" Margin="70,50,0,0" TextWrapping="Wrap" Text="Remotely.Click Server for Windows" VerticalAlignment="Top" Width="370" FontSize="22" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="70,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.224,-0.688" Width="370" FontSize="14"><Run Text="Version: 0."/><Run Text="1 beta"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="70,160,0,0" TextWrapping="Wrap" Text="Author: Michal Ziobro" VerticalAlignment="Top" RenderTransformOrigin="0.527,1.566" Width="370" FontSize="14"/>
+        <Button HorizontalAlignment="Left" Margin="70,200,0,0" VerticalAlignment="Top" Width="250">
+            <Button Content="www.remotely.click" Width="250" Click="RemotelyClickWebPage_Click" MinWidth="100" FontSize="14" Background="#FFDDDDDD"/>
+        </Button>
     </Grid>
 </Window>

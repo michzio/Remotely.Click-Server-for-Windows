@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Remotely.Click_Server_for_Windows.Model;
+using Remotely.Click_Server_for_Windows.View;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -9,6 +11,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -24,8 +27,10 @@ namespace Remotely.Click_Server_for_Windows
     /// </summary>
     public partial class MainWindow : Window
     {
-        private System.Windows.Forms.NotifyIcon notifyIcon = null;
-        private Dictionary<string, System.Drawing.Icon> iconHandles = null;
+        private NotifyIcon notifyIcon = null;
+        private Dictionary<string, Icon> iconHandles = null;
+
+        private QuickLaunchMenu quickLaunchMenu; 
 
         public MainWindow()
         {
@@ -34,17 +39,6 @@ namespace Remotely.Click_Server_for_Windows
 
         protected override void OnInitialized(EventArgs e)
         {
-            iconHandles = new Dictionary<string, System.Drawing.Icon>();
-            string bitmapPath = System.IO.Path.Combine(Environment.CurrentDirectory, @"Icons\ic_speaker_phone_3x.png");
-            var bitmap = new Bitmap(bitmapPath);
-            var iconHandle = bitmap.GetHicon();
-            iconHandles.Add("QuickLaunch", System.Drawing.Icon.FromHandle(iconHandle) ); 
-
-            notifyIcon = new System.Windows.Forms.NotifyIcon();
-            notifyIcon.Click += new EventHandler(OnNotifyIconClick);
-            notifyIcon.DoubleClick += new EventHandler(OnNotifyIconDoubleClick);
-            notifyIcon.Icon = iconHandles["QuickLaunch"];
-
             Loaded += OnLoaded;
             StateChanged += OnStateChanged;
             Closing += OnClosing;
@@ -53,10 +47,58 @@ namespace Remotely.Click_Server_for_Windows
             base.OnInitialized(e);
         }
 
+        private void loadIconHandles()
+        {
+            iconHandles = new Dictionary<string, System.Drawing.Icon>();
+            //string bitmapPath = System.IO.Path.Combine(Environment.CurrentDirectory, @"Icons\ic_speaker_phone_3x.png");
+            //var bitmap = new Bitmap(bitmapPath);
+            //var iconHandle = bitmap.GetHicon();
+            var iconHandle = Remotely.Click_Server_for_Windows.Properties.Resources.NotifyIcon.GetHicon();
+            iconHandles.Add("QuickLaunch", System.Drawing.Icon.FromHandle(iconHandle));
+        }
+
+        private NotifyIcon createNotifyIcon()
+        {
+            var notifyIcon = new NotifyIcon();
+            notifyIcon.Click += new EventHandler(OnNotifyIconClick);
+            notifyIcon.DoubleClick += new EventHandler(OnNotifyIconDoubleClick);
+            notifyIcon.Icon = iconHandles["QuickLaunch"];
+
+            return notifyIcon;
+        }
+
+        private QuickLaunchMenu createQuickLaunchMenu()
+        {
+            var quickLaunchMenu = new View.QuickLaunchMenu(
+              () =>
+              {
+                  if (this.WindowState == WindowState.Minimized)
+                  {
+                      this.WindowState = WindowState.Normal;
+                  }
+                  this.Show();
+              },
+              () =>
+              {
+                  WindowState = WindowState.Minimized;
+                  Close();
+              });
+            return quickLaunchMenu; 
+        }
+
         private void OnLoaded(object sender, RoutedEventArgs e)
         {
+            // create quick launch menu in notification try
+            loadIconHandles();
+            notifyIcon = createNotifyIcon();
+            quickLaunchMenu = createQuickLaunchMenu();
+
+            if (notifyIcon == null) return; 
             notifyIcon.Visible = true;
-            notifyIcon.ShowBalloonTip(1, "Remotely.Click", "Server is starting...", System.Windows.Forms.ToolTipIcon.Info);
+            if (ServerSettings.shared().ShouldServerAutostartWithApp)
+            {
+                notifyIcon.ShowBalloonTip(1, "Remotely.Click", "Server is starting...", System.Windows.Forms.ToolTipIcon.Info);
+            }
         }
 
         private void OnStateChanged(object sender, EventArgs e)
@@ -116,23 +158,14 @@ namespace Remotely.Click_Server_for_Windows
 
         private void ShowQuickLaunchMenu()
         {
-            View.QuickLaunchMenu menu = new View.QuickLaunchMenu(
-               () =>
-               {
-                   if (this.WindowState == WindowState.Minimized)
-                   {
-                       this.WindowState = WindowState.Normal;
-                   }
-                   this.Show();
-               },
-               () =>
-               {
-                   WindowState = WindowState.Minimized;
-                   Close();
-               });
-            menu.IsOpen = true;
+            quickLaunchMenu.IsOpen = true;
+            quickLaunchMenu.replaceMenuAtCursorPosition();
         }
 
+        private void RemotelyClickWebPage_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.remotely.click");
+        }
     }
 
 }

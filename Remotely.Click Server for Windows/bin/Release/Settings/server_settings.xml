@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ShouldApplicationAutostart>true</ShouldApplicationAutostart>
+  <ShouldServerAutostartWithApp>true</ShouldServerAutostartWithApp>
+  <ShouldAutoDiscoverDevices>true</ShouldAutoDiscoverDevices>
+  <DeviceDiscoverableName />
+  <ServerIpAddress>0.0.0.0</ServerIpAddress>
+  <ServerPortNumber>0</ServerPortNumber>
+  <ShouldUseCustomPortNumber>false</ShouldUseCustomPortNumber>
+  <ShouldUseSecurityPassword>false</ShouldUseSecurityPassword>
+  <SecurityPassword />
+</ServerSettings>

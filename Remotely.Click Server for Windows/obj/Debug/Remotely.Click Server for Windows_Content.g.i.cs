@@ -8,6 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/green-icon.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/ic_speaker_phone_3x.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/red-icon.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/orange-icon.png")]
 
 
